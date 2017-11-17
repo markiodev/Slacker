@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company />
+    <Description>.NET Library for Slack message integration</Description>
+    <RepositoryType>GitHub</RepositoryType>
+    <RepositoryUrl>https://github.com/MarkioE/Slacker</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/MarkioE/Slacker</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
